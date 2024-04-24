@@ -1183,7 +1183,7 @@ impl MinerV2 {
         )));
         let pubkey = signer.pubkey();
 
-        let mut child = tokio::process::Command::new(r"D:\Dev\Projects\ore-cli-gpu\windows.exe")
+        let mut child = tokio::process::Command::new(r"path_to_exe")
             .stdin(std::process::Stdio::piped())
             .stdout(std::process::Stdio::piped())
             .stderr(std::process::Stdio::piped())
